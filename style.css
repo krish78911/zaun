@@ -1,0 +1,573 @@
+/*
+@font-face {
+    font-family: "GeoSlab703 Lt BT";
+
+    src: url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0306m.eot");
+
+   src: url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0306m.eot?#iefix") format("embedded-opentype"), url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0306m.woff") format("woff"), url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0306m.ttf") format("truetype"), url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0306m.svg#9e9a02281baefcf41985b439f9dc8bdd") format("svg");
+
+    font-style: normal;
+
+    font-weight: 200
+
+}
+@font-face {
+
+    font-family: "GeoSlab703 Lt BT";
+
+    src: url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0310m.eot");
+
+    src: url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0310m.eot?#iefix") format("embedded-opentype"), url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0310m.woff") format("woff"), url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0310m.ttf") format("truetype"), url("https://www.traum-zaun24.de/wp-content/themes/traumzaun/fonts/tt0310m.svg#9e9a02281baefcf41985b439f9dc8bdd") format("svg");
+
+    font-style: normal;
+
+    font-weight: 700
+
+}
+*/
+.body {
+	width: 85%; 
+	margin: 0px auto;
+	font-family: "Duru Sans", sans-serif;
+}
+.section-left { /*border: 1px solid red;*/ position: relative;}
+.section-left .number-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.arrow-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.section-left .arrow-container .fa-angle-left, .section-left .arrow-container .fa-angle-right {
+	padding: 10px;
+	background-color: #327aac;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	width: 40px;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+}
+.section-left .arrow-container .fa-angle-right {
+	float: right;
+}
+.section-left button {
+    border: 1px solid #327aac;
+	background-color: white;
+	width: 10%;
+	color: #327aac;
+	font-weight: bold;
+	height: 45px;
+}
+.section-left button.active {
+	background-color: #327aac;
+	color: white;
+}
+.section-right { /*border: 1px solid red;*/}
+.heading { font-size: 25px; font-weight: bold; font-family: "GeoSlab703 Lt BT", serif;}
+.subheading { font-size: 20px;}
+.subheadingBold { font-size: 20px; font-weight: bold;}
+#headingmobile {display: none;}
+.imagesPageOne {
+	background-size: cover;
+	background-position: center center;
+	height: 280px;
+	margin-top: 20px;
+	position: relative;
+	text-align: center;
+	box-shadow: 0px 0px 1px #989898;
+	-moz-box-shadow: 0px 0px 1px #989898;
+    -webkit-box-shadow: 0px 0px 1px #989898;
+	cursor: pointer;
+}
+.imagesPageTwo {
+	background-size: cover;
+	background-position: center center;
+	height: 200px;
+	margin-top: 20px;
+	position: relative;
+	text-align: center;
+	box-shadow: 0px 0px 1px #989898;
+	-moz-box-shadow: 0px 0px 1px #989898;
+    -webkit-box-shadow: 0px 0px 1px #989898;
+	cursor: pointer;
+}
+.imagesPageSeven, .imagesPageEight1, .imagesPageEight2, .imagesPageEight3 {
+	background-size: cover;
+	background-position: center center;
+	margin-top: 50px;
+	position: relative;
+	text-align: center;
+	box-shadow: 0px 0px 1px #989898;
+	-moz-box-shadow: 0px 0px 1px #989898;
+    -webkit-box-shadow: 0px 0px 1px #989898;
+	cursor: pointer;
+}
+.imagesPageEight1, .imagesPageEight2, .imagesPageEight3 {
+	height: 350px;
+}
+.imagesPageSeven {
+	height: 350px;
+}
+.imagesPageThree {
+	height: 200px;
+	border: 1px solid white;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+.imagesPageThree p{
+	margin-top: 65px;
+	cursor: pointer;
+}
+.imagesPageThree .span1{
+	font-size: 25px;
+	font-weight: bold;
+}
+.imagesPageThree p.active {
+	color: rgba(56, 171, 201, 0.83);
+}
+.pageFour, .pageSix {
+	margin-top: 100px;
+}
+.pageFourHeading2 {
+	margin-top: 50px;
+}
+.imagesPageFour img.people {
+	height: 300px;
+}
+.imagesPageFour img.scale {
+	height: 300px;
+	width: 40px;
+	float: right;
+}
+.imagesPageFour input {
+	width: 100%;
+	padding: 5px;
+}
+.imagesPageFour textarea {
+	width: 100%;
+	padding: 5px;
+	height: 100px;
+}
+.imagesPageThreeInputColor {
+	text-align: left;
+	margin-top: 20px;
+	position: relative;
+	height: 200px;
+}
+.imagesPageThreeInputColor .span3{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	width: 100%;
+}
+.imagesPageThreeInputColor .span4{
+	font-size: 20px;
+	color: black;
+}
+.imagesPageThreeInputColor input {
+    width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.imagesPageThreeInputColor button {
+    width: 100%;
+	background-color: #327aac;
+	padding: 10px;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+}
+.imagesPageOne p, .imagesPageTwo p, .imagesPageSeven p, .imagesPageEight1 p, .imagesPageEight2 p, .imagesPageEight3 p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.79);
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0px;
+	font-size: 25px; font-weight: bold;
+}
+.imagesPageOne p.active, .imagesPageTwo p.active, .imagesPageSeven p.active, .imagesPageEight1 p.active, .imagesPageEight2 p.active, .imagesPageEight3 p.active {
+	background-color: rgba(56, 171, 201, 0.83);
+}
+.imagesPageOne p span, .imagesPageTwo p span, .imagesPageSeven p span, .imagesPageEight1 p span, .imagesPageEight2 p span, .imagesPageEight3 p span {
+	font-size: 16px;
+	text-align: center;
+}
+.imagesPageFive, .imagesPageNine {
+	text-align: center;
+	margin-top: 50px;
+}
+.imagesPageFive div, .imagesPageNine div {
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 350px;
+	cursor: pointer;
+}
+.imagesPageFive div.active, .imagesPageNine div.active {
+	border: 1px solid #327aac;
+}
+.imagesPageSix0 .mm60, .imagesPageSix0 .mm80, .imagesPageSix0 .mm100, .imagesPageSix0 .mm120, .imagesPageSix0 .gemauert {
+	border: 1px solid #327aac;
+	background-color: #327aac;
+	background-size: cover;
+}
+.imagesPageSix0 .mm60 {
+	height: 20px;
+	width: 20px;
+}
+.imagesPageSix0 .mm80 {
+	height: 25px;
+	width: 25px;
+}
+.imagesPageSix0 .mm100 {
+	height: 30px;
+	width: 30px;
+}
+.imagesPageSix0 .mm120 {
+	height: 35px;
+	width: 35px;
+}
+.imagesPageSix0 .gemauert {
+	height: 35px;
+	width: 35px;
+}
+.imagesPageSix0 img {
+	height: 100%;
+	cursor: pointer;
+}
+.imagesPageSix0 img.active {
+	opacity: 0.1;
+}
+.imagesPageSix1 img.active {
+	border: 2px solid #327aac;
+}
+.imagesPageSix2 img.active {
+	border: 2px solid #327aac;
+}
+.imagesPageSix1 div, .imagesPageSix2 div {
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 70px;
+	cursor: pointer;
+}
+.imagesPageSix1 div img, .imagesPageSix2 div img {
+	height: 100%;
+}
+.imagesPageSix1 p, .imagesPageSix2 p {
+	width: 100%;
+}
+#section-1, #section-2, #section-3 {
+	margin-top: 60px;
+}
+.pageNineSecondPart1 input[type=text] {
+	width: 100%;
+	padding: 5px;
+	height: 40px;
+}
+.pageNineSecondPart2 {
+	text-align: right;
+}
+.pageNineSecondPart2 input[type=checkbox] {
+  transform: scale(3.2);
+  cursor: pointer;
+}
+.pageNineSecondPart {
+	text-align: left;
+}
+.weiterBtn {
+	margin-top: 120px;
+	width: 180px;
+	padding: 10px;
+	color: white;
+	background-color: #327aac;
+	border: none;
+	float: right;
+}
+.imagesPageTen input[type=text], .imagesPageTen input[type=email]{
+	width: 100%;
+	padding: 5px;
+	height: 50px;
+}
+.imagesPageTen label {
+	margin-top: 20px;
+}
+.imagesPageTen textarea{
+	width: 100%;
+	padding: 5px;
+	height: 350px;
+}
+.imagesPageTen input[type=checkbox] {
+  transform: scale(1.5);
+  margin-top: 30px;
+  cursor: pointer;
+}
+.imagesPageTen button {
+	background-color: #327aac;
+	width: 100%;
+	padding: 5px;
+	margin-top: 30px;
+	border: none;
+	color: white;
+}
+.thankyoumessage {
+	text-align: center;
+	margin-top: 100px;
+}
+.thankyoumessage button {
+	background-color: #327aac;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	border: none;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+label.numbers {
+	width: 40px;
+	background-color: #327aac;
+	color: white;
+	text-align: center;
+}
+#showformdetails div {
+	cursor: pointer;
+}
+#showformdetails a {
+	text-decoration: none;
+	color: black;
+}
+#showformdetails span {
+    background-color: #327aac;
+	padding: 2px 10px 2px 10px;
+	color: white;
+}
+#showformdetails input {
+    border: none;
+	width: 250px
+}
+#showrange {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 150px;
+	width: 100%; 
+	text-align: left;
+}
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 300px;
+    padding: 0 5px;
+}
+input[type="range"]{
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.5, white),
+        color-stop(0.5, white)
+    );
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range] {
+	background-color: white;
+	color: white;
+}
+input[type=range]::-webkit-slider-thumb {
+
+   -moz-appearance: none;
+	 background-color: #327aac;
+	 box-shadow:
+		inset 0 0 16px #327aac,
+		inset 16px 0 20px #327aac;
+	 height: 20px;
+	 width: 20px;
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: inset 1px 1px 5px white;
+  background: white;
+  border-radius: 1px;
+  border: 2px solid white;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  border: 2px solid white;
+  box-shadow: inset 1px 1px 5px white;
+}
+
+#col1 {display:table-footer-group;}
+#col2 {display:table-header-group;}
+#col3 {display:table;}
+
+@media (max-width: 1243px) {
+	.imagesPageFour img.people {
+		height: 250px;
+		width: 150px;
+	}
+	.imagesPageFour img.scale {
+		height: 250px;
+		width: 20px;
+		float: right;
+	}
+	#showrange {
+		margin-top: 115px;
+	}
+	input[type=range][orient=vertical]
+	{
+		writing-mode: bt-lr; /* IE */
+		-webkit-appearance: slider-vertical; /* WebKit */
+		width: 8px;
+		height: 250px;
+		padding: 0 5px;
+	}
+	.imagesPageFive div, .imagesPageNine div {
+		height: 200px;
+	}
+	.section-left button {
+		height: 30px;
+	}
+}
+@media (max-width: 991px) {
+	.imagesPageTwo {
+		height: 300px;
+	}
+	.imagesPageFive div, .imagesPageNine div {
+		height: 250px;
+	}
+	.section-left {
+		height: auto;
+	}
+	.section-left button {
+		height: 45px;
+	}
+	.section-left #left-heading, .section-left #left-subheading {
+		display: none;
+	}
+	.section-left .number-container {
+		position: relative;
+		margin-top: 20px;
+	}
+	.section-left .arrow-container {
+		position: relative;
+		margin-top: 20px;
+	}
+	.imagesPageThreeInputColor {
+		height: auto;
+	}
+	.continueBtn, .weiterBtn {
+		display: none;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.section-left .number-container .fa-angle-right {
+		display: block;
+	}
+	.section-left .arrow-container .fa-angle-left, .section-left .arrow-container .fa-angle-right {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.imagesPageTen button {
+		margin-bottom: 30px;
+	}
+	.imagesPageTen input[type=checkbox] {
+	  transform: scale(3.5);
+	  margin-left: 15px;
+	  margin-top: 30px;
+	}
+	.pageNineSecondPart2 {
+		text-align: center;
+		margin-top: 50px;
+	}
+	#showformdetails {
+		display: none;
+	}
+	
+	#bodycontainer {
+		display: flex; flex-direction: column-reverse;
+	}
+	.heading {
+		width: 100%;
+		text-align: center;
+	}
+	.arrow-container {
+		margin-bottom: 0px;
+	}
+	.imagesPageThreeInputColor input {
+		margin-top: 0px;
+	}
+	.subheading {
+		text-align: center;
+	}
+	.subheadingBold {
+		text-align: center;
+	}
+	.pageNineSecondPart {
+		text-align: center;
+	}
+	#section-1, #section-2, #section-3 {
+		text-align: center;
+	}
+	#headingdesktop {display: none;}
+	#headingmobile {display: block;}
+}
+
+@media (max-width: 480px) {
+	.imagesPageFive div, .imagesPageNine div {
+		height: 180px;
+	}
+	.section-left button {
+		height: 30px;
+	}
+}
